@@ -1,9 +1,10 @@
-public class addition{
-public static void main(String[] args){
-int a=10;
-int b=20;
-int c=a+b;
-System.out.println(c);
-}}
-//additon of two nunmbers 
-//have to add two numbers
+class Vehicle{
+  void run(){System.out.println("Vehicle is running");}
+  }
+  class Bike extends Vehicle{
+  
+  public static void main(String args[]){
+  Bike obj = new Bike();
+  obj.run();
+  }
+}
